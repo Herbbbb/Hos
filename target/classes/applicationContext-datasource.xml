@@ -60,7 +60,7 @@
 
     <!--扫描DAO层-->
     <bean name="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.emall.dao"/>
+        <property name="basePackage" value="com.mmall.dao"/>
     </bean>
 
     <!--扫描***Mapper.xml文件-->

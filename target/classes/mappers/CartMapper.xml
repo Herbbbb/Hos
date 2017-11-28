@@ -12,19 +12,65 @@
       <arg column="update_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
     </constructor>
   </resultMap>
+  <resultMap id="ResultMap" type="com.mmall.vo.CartProductVoList">
+    <constructor >
+      <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="user_id"  jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="product_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="quantity" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="checked" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="main_image" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="stock" jdbcType="INTEGER" javaType="java.lang.Integer" />
+    </constructor>
+  </resultMap>
+
   <sql id="Base_Column_List" >
-    id, user_id, product_id, quantity, checked, create_time, update_time
+   id, user_id, product_id, quantity, checked, create_time, update_time
   </sql>
+
+  <sql id="Column_List">
+    t2.id,t2.user_id userId,t2.pid productId,t2.quantity,t1.name productName,t1.subtitle productSubtitle,t1.main_image productMainImage,t1.price productPrice,t1.status productStatus,t2.quantity*t1.price productTotalPrice,t1.stock productStock,t2.checked productChecked
+  </sql>
+  <!--根据用户名查找用户ID 在查找该用户名下的购物车列表时用到-->
+  <select id="findUserIdByUsername" parameterType="java.lang.String" resultType="int">
+      select id from mmall_user
+      where username=#{username}
+  </select>
+  <!--查找所有-->
+  <select id="findAll" resultType="com.mmall.vo.CartProductVoList" parameterType="java.lang.Integer">
+    select
+      <include refid="Column_List"/>
+    from
+    ((select id,name,subtitle,main_image,price,status,stock from mmall_product ) t1,
+    (select id,user_id,product_id pid,quantity,checked from mmall_cart where user_id=${userId}) t2)
+    where t1.id = t2.pid
+  </select>
+<!--添加时查看是否重复-->
+  <select id="findIfRepeat" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from mmall_cart
+    where product_id = #{productId,jdbcType=INTEGER}
+  </select>
+
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
     from mmall_cart
-    where id = #{id,jdbcType=INTEGER}
+    where product_id = #{productId,jdbcType=INTEGER}
   </select>
+  <!--ID删除-->
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from mmall_cart
-    where id = #{id,jdbcType=INTEGER}
+    where product_id = #{productId,jdbcType=INTEGER}
   </delete>
+  <!---->
+  <select id="totalQuantity"  parameterType="java.lang.Integer" resultType="java.lang.Integer">
+      select sum(quantity) counts from mmall_cart
+  </select>
+  <!--增加-->
   <insert id="insert" parameterType="com.mmall.pojo.Cart" >
     insert into mmall_cart (id, user_id, product_id, 
       quantity, checked, create_time, 
@@ -33,6 +79,7 @@
       #{quantity,jdbcType=INTEGER}, #{checked,jdbcType=INTEGER}, now(),
       now())
   </insert>
+  <!--增加-->
   <insert id="insertSelective" parameterType="com.mmall.pojo.Cart" >
     insert into mmall_cart
     <trim prefix="(" suffix=")" suffixOverrides="," >
@@ -82,9 +129,9 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.mmall.pojo.Cart" >
+  <update id="updateByPrimaryKeySelective" parameterType="java.lang.Integer" >
     update mmall_cart
-    <set >
+    <set>
       <if test="userId != null" >
         user_id = #{userId,jdbcType=INTEGER},
       </if>
@@ -104,9 +151,9 @@
         update_time = now(),
       </if>
     </set>
-    where id = #{id,jdbcType=INTEGER}
+    where product_id = #{productId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.mmall.pojo.Cart" >
+  <update id="updateByPrimaryKey"  parameterType="java.lang.Integer">
     update mmall_cart
     set user_id = #{userId,jdbcType=INTEGER},
       product_id = #{productId,jdbcType=INTEGER},
@@ -114,6 +161,6 @@
       checked = #{checked,jdbcType=INTEGER},
       create_time = #{createTime,jdbcType=TIMESTAMP},
       update_time = now()
-    where id = #{id,jdbcType=INTEGER}
+    where product_id = #{productId,jdbcType=INTEGER}
   </update>
 </mapper>
