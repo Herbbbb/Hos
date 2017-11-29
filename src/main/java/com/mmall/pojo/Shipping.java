@@ -42,6 +42,20 @@ public class Shipping {
         this.updateTime = updateTime;
     }
 
+    public Shipping(Integer userId, String receiverName, String receiverPhone, String receiverMobile, String receiverProvince, String receiverCity, String receiverDistrict, String receiverAddress, String receiverZip, Date createTime, Date updateTime) {
+        this.userId = userId;
+        this.receiverName = receiverName;
+        this.receiverPhone = receiverPhone;
+        this.receiverMobile = receiverMobile;
+        this.receiverProvince = receiverProvince;
+        this.receiverCity = receiverCity;
+        this.receiverDistrict = receiverDistrict;
+        this.receiverAddress = receiverAddress;
+        this.receiverZip = receiverZip;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+    }
+
     public Shipping() {
         super();
     }
@@ -140,5 +154,23 @@ public class Shipping {
 
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
+    }
+
+    @Override
+    public String toString() {
+        return "Shipping{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", receiverName='" + receiverName + '\'' +
+                ", receiverPhone='" + receiverPhone + '\'' +
+                ", receiverMobile='" + receiverMobile + '\'' +
+                ", receiverProvince='" + receiverProvince + '\'' +
+                ", receiverCity='" + receiverCity + '\'' +
+                ", receiverDistrict='" + receiverDistrict + '\'' +
+                ", receiverAddress='" + receiverAddress + '\'' +
+                ", receiverZip='" + receiverZip + '\'' +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                '}';
     }
 }

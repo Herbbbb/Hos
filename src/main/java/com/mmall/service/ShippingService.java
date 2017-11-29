@@ -1,12 +1,14 @@
-package com.mmall.dao;
+package com.mmall.service;
 
 import com.mmall.pojo.Shipping;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-public interface ShippingMapper {
-
+/**
+ * Created by Herb on 2017/11/28.
+ */
+public interface ShippingService {
     Shipping selectByPrimaryKey(Integer id);
     //功能一：添加地址--
     int insert(Shipping record);
