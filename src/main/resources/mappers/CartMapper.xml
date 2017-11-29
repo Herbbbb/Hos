@@ -12,7 +12,7 @@
       <arg column="update_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
     </constructor>
   </resultMap>
-  <resultMap id="ResultMap" type="com.mmall.vo.CartProductVoList">
+  <resultMap id="ResultMap" type="com.mmall.common.CartProductVoList">
     <constructor >
       <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="user_id"  jdbcType="INTEGER" javaType="java.lang.Integer" />
@@ -39,7 +39,7 @@
       where username=#{username}
   </select>
   <!--查找所有-->
-  <select id="findAll" resultType="com.mmall.vo.CartProductVoList" parameterType="java.lang.Integer">
+  <select id="findAll" resultType="com.mmall.common.CartProductVoList" parameterType="java.lang.Integer">
     select
       <include refid="Column_List"/>
     from

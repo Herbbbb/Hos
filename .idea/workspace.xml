@@ -2,13 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7850cf05-b343-46c8-9dd6-0d54e9724583" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/ShippingMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/ShippingMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Shipping.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Shipping.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/vo/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/CartProductVoList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/Data.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/vo/CartProductVoList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/vo/Data.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/vo/Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/vo/Result.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartAddAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartAddAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartCountAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartCountAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartDeleteProductAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartDeleteProductAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartListAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartListAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartSelectAllAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartSelectAllAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartSelecttAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartSelecttAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartUNSelectAllAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartUNSelectAllAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartUNSelecttAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartUNSelecttAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartUpdateAction.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/CartUpdateAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/CartMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/CartMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/User.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/pojo/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/CartService.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/CartService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/CartServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartAddAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartAddAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartCountAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartCountAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartDeleteProductAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartDeleteProductAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartListAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartListAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartSelectAllAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartSelectAllAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartSelecttAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartSelecttAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartUNSelectAllAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartUNSelectAllAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartUNSelecttAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartUNSelecttAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartUpdateAction.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/controller/CartUpdateAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/dao/CartMapper.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/dao/CartMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/dao/ShippingMapper.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/dao/ShippingMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/dao/UserMapper.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/dao/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/pojo/Shipping.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/pojo/Shipping.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/pojo/User.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/pojo/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/service/CartService.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/service/CartService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/com/mmall/service/impl/CartServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/dao/CartMapperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mmall/dao/CartMapperTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/dao/ShippingMapperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mmall/dao/ShippingMapperTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartAddAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartAddAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartCountAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartCountAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartDeleteProductAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartDeleteProductAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartListAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartListAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelectAllAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelectAllAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelecttAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelecttAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelectAllAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelectAllAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelecttAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelecttAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUpdateAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUpdateAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Shipping.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Shipping.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/ShippingMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/CartService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/CartService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mmall/dao/CartMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mmall/dao/CartMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mmall/dao/ShippingMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mmall/dao/ShippingMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/mappers/CartMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/mappers/ShippingMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/emall/WEB-INF/classes/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/target/emall/WEB-INF/classes/mappers/UserMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/vo/CartProductVoList.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/CartProductVoList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/vo/Data.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/Data.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/vo/Result.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/Result.java" />
     </list>
     <ignored path="mmall.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,13 +105,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShippingMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java">
+      <file leaf-file-name="ServerResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartAddAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartAddAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingUpdateAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingUpdateAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingListAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingListAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="e#786#802#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingAddAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingAddAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27843803">
+              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1157#1158#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingCommon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ShippingCommon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding>
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartListAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartListAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="e#757#763#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,50 +209,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/ShippingService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShippingServiceImplTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mmall/service/impl/ShippingServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3060796">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShippingMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mmall/dao/ShippingMapperTest.java">
+      <file leaf-file-name="ShippingMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="37" selection-start-line="34" selection-start-column="8" selection-end-line="46" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShippingMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-              <folding>
-                <marker date="1511875011889" expanded="true" signature="1608:1669" placeholder="select from mmall_shipping" />
-                <marker date="1511875011889" expanded="true" signature="1774:1867" placeholder="select * fro... mmall_shipping" />
-                <marker date="1511875011889" expanded="true" signature="1982:2087" placeholder="select from mmall_shipping" />
-                <marker date="1511875011889" expanded="true" signature="2174:2238" placeholder="delete from " />
-                <marker date="1511875011889" expanded="true" signature="2319:2991" placeholder="insert into mmall_shipping... " />
-                <marker date="1511875011889" expanded="true" signature="5351:6655" placeholder="update mmall... " />
-                <marker date="1511875011889" expanded="true" signature="6748:7434" placeholder="update mmall... " />
-              </folding>
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,8 +231,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -128,12 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/READMR.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/ftp_server.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Cart.java" />
@@ -147,24 +260,44 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/vo/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/vo/CartProductVoList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/vo/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/vo/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartCountAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelectAllAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelecttAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelecttAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelectAllAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartListAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartAddAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUpdateAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartDeleteProductAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Shipping.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mmall/dao/ShippingMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/ShippingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mmall/service/impl/ShippingServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/vo/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartCountAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartDeleteProductAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelectAllAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelecttAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelectAllAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelecttAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUpdateAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartListAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mmall/dao/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/LoginAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/UserLoginAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingAddAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingDeleteAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mmall/dao/ShippingMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingUpdateAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingSelectAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/CartAddAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Shipping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ShippingCommon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingListAction.java" />
       </list>
     </option>
   </component>
@@ -297,7 +430,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -511,36 +644,6 @@
               <option name="myItemId" value="mmall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -696,10 +799,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mmall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -714,125 +847,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.mmall.service.impl" />
       <recent name="com.mmall.dao" />
+      <recent name="com.mmall.service.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mmall.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\" />
       <recent name="E:\mmall\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mmall.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mmall.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShippingServiceImplTest.testDeleteByPrimaryKey">
-    <configuration default="false" name="ShippingServiceImplTest.testFindDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mmall.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mmall" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mmall.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.mmall.service.impl.ShippingServiceImplTest" />
-      <option name="METHOD_NAME" value="testFindDetail" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShippingServiceImplTest.testSelectByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mmall.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mmall" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mmall.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.mmall.service.impl.ShippingServiceImplTest" />
-      <option name="METHOD_NAME" value="testSelectByPrimaryKey" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShippingServiceImplTest.testUpdateByPrimaryKeySelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mmall.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mmall" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mmall.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.mmall.service.impl.ShippingServiceImplTest" />
-      <option name="METHOD_NAME" value="testUpdateByPrimaryKeySelective" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShippingServiceImplTest.testInsertSelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mmall.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mmall" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mmall.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.mmall.service.impl.ShippingServiceImplTest" />
-      <option name="METHOD_NAME" value="testInsertSelective" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.mmall">
     <configuration default="false" name="ShippingServiceImplTest.testDeleteByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -846,6 +878,110 @@
       <option name="PACKAGE_NAME" value="com.mmall.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.mmall.service.impl.ShippingServiceImplTest" />
       <option name="METHOD_NAME" value="testDeleteByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserMapperTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mmall" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mmall.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserMapperTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mmall" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mmall.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShippingMapperTest.testDeleteByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mmall" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mmall.dao.ShippingMapperTest" />
+      <option name="METHOD_NAME" value="testDeleteByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShippingMapperTest.testUpdateByPrimaryKeySelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mmall" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mmall.dao.ShippingMapperTest" />
+      <option name="METHOD_NAME" value="testUpdateByPrimaryKeySelective" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1270,7 +1406,34 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="CartMapperTest.testSelectByPrimaryKey" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mmall" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mmall.dao.CartMapperTest" />
+      <option name="METHOD_NAME" value="testSelectByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="mmall" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -1344,48 +1507,22 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="CartMapperTest.testSelectByPrimaryKey" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mmall.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mmall" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mmall.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mmall.dao.CartMapperTest" />
-      <option name="METHOD_NAME" value="testSelectByPrimaryKey" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.mmall" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CartMapperTest.testSelectByPrimaryKey" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testFindDetail" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testSelectByPrimaryKey" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testUpdateByPrimaryKeySelective" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testInsertSelective" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testDeleteByPrimaryKey" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CartMapperTest.testSelectByPrimaryKey" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.mmall" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testDeleteByPrimaryKey" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserMapperTest.testCount" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserMapperTest.testLogin" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ShippingMapperTest.testDeleteByPrimaryKey" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ShippingMapperTest.testUpdateByPrimaryKeySelective" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testDeleteByPrimaryKey" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testInsertSelective" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testUpdateByPrimaryKeySelective" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testSelectByPrimaryKey" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testFindDetail" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ShippingMapperTest.testUpdateByPrimaryKeySelective" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShippingMapperTest.testDeleteByPrimaryKey" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserMapperTest.testLogin" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserMapperTest.testCount" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShippingServiceImplTest.testDeleteByPrimaryKey" />
       </list>
     </recent_temporary>
   </component>
@@ -1405,22 +1542,17 @@
       <workItem from="1511827001972" duration="3918000" />
       <workItem from="1511831542682" duration="32239000" />
       <workItem from="1511869029253" duration="6645000" />
-      <workItem from="1511913398323" duration="439000" />
+      <workItem from="1511913398323" duration="15101000" />
+      <workItem from="1511939525681" duration="8110000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShippingMapperTest_testFindAll - 2017.11.28 at 21h 15m 39s.xml">
-      <configuration name="ShippingMapperTest.testFindAll" configurationId="JUnit" />
+    <history-entry file="ShippingMapperTest_testDeleteByPrimaryKey - 2017.11.29 at 16h 19m 07s.xml">
+      <configuration name="ShippingMapperTest.testDeleteByPrimaryKey" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShippingMapperTest_testFindAll - 2017.11.28 at 21h 17m 13s.xml">
-      <configuration name="ShippingMapperTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShippingMapperTest_testFindDetail - 2017.11.28 at 21h 17m 30s.xml">
-      <configuration name="ShippingMapperTest.testFindDetail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShippingServiceImplTest_testDeleteByPrimaryKey - 2017.11.28 at 21h 29m 27s.xml">
-      <configuration name="ShippingServiceImplTest.testDeleteByPrimaryKey" configurationId="JUnit" />
+    <history-entry file="ShippingMapperTest_testUpdateByPrimaryKeySelective - 2017.11.29 at 16h 29m 25s.xml">
+      <configuration name="ShippingMapperTest.testUpdateByPrimaryKeySelective" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShippingServiceImplTest_testFindAll - 2017.11.28 at 21h 24m 13s.xml">
       <configuration name="ShippingServiceImplTest.testFindAll" configurationId="JUnit" />
@@ -1440,9 +1572,15 @@
     <history-entry file="ShippingServiceImplTest_testUpdateByPrimaryKeySelective - 2017.11.28 at 21h 27m 21s.xml">
       <configuration name="ShippingServiceImplTest.testUpdateByPrimaryKeySelective" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapperTest_testCount - 2017.11.29 at 15h 27m 00s.xml">
+      <configuration name="UserMapperTest.testCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testLogin - 2017.11.29 at 15h 28m 11s.xml">
+      <configuration name="UserMapperTest.testLogin" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62105000" />
+    <option name="totallyTimeSpent" value="84877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1455,34 +1593,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2351387" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11246418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18361954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.331572" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22847682" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21776505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28080228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27476883" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27230048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27230048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33774835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60237783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1533,172 +1671,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <marker date="1511859089705" expanded="true" signature="2249:2302" placeholder="select user_... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2249:2306" placeholder="select user_... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2249:2307" placeholder="select id fr... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2440:2702" placeholder="select from id" />
-            <marker date="1511859089705" expanded="true" signature="2499:2571" placeholder="select id,na... mmall_product" />
-            <marker date="1511859089705" expanded="true" signature="2791:2911" placeholder="select from mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3025:3146" placeholder="select from mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3247:3322" placeholder="delete from " />
-            <marker date="1511859089705" expanded="true" signature="3447:3490" placeholder="select sum(q... mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3579:3867" placeholder="insert into mmall_cart... " />
-            <marker date="1511859089705" expanded="true" signature="5224:5884" placeholder="update mmall... " />
-            <marker date="1511859089705" expanded="true" signature="5971:6309" placeholder="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mmall/dao/CartMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="4" selection-start-column="38" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="213" column="8" selection-start-line="213" selection-start-column="8" selection-end-line="213" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="97" selection-start-line="3" selection-start-column="97" selection-end-line="3" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511859089705" expanded="true" signature="2249:2302" placeholder="select user_... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2249:2306" placeholder="select user_... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2249:2307" placeholder="select id fr... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2440:2702" placeholder="select from id" />
-            <marker date="1511859089705" expanded="true" signature="2499:2571" placeholder="select id,na... mmall_product" />
-            <marker date="1511859089705" expanded="true" signature="2791:2911" placeholder="select from mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3025:3146" placeholder="select from mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3247:3322" placeholder="delete from " />
-            <marker date="1511859089705" expanded="true" signature="3447:3490" placeholder="select sum(q... mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3579:3867" placeholder="insert into mmall_cart... " />
-            <marker date="1511859089705" expanded="true" signature="5224:5884" placeholder="update mmall... " />
-            <marker date="1511859089705" expanded="true" signature="5971:6309" placeholder="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/READMR.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9411764">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1451613">
-          <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39625362">
           <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2258065">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.064516">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1729,14 +1705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.823529">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.176471">
-          <caret line="70" column="65" selection-start-line="70" selection-start-column="65" selection-end-line="70" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1774,95 +1742,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/Result.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartCountAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18639798">
-          <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelectAllAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43828714">
-          <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelecttAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56423175">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelecttAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56423175">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelectAllAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88161206">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartDeleteProductAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6221663">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUpdateAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartListAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1879,9 +1765,9 @@
         <state vertical-scroll-proportion="0.59782606">
           <caret line="41" column="17" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1061#1062#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1894,105 +1780,242 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mmall/service/impl/ShippingServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4347826">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/CartProductVoList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054347824">
+        <state vertical-scroll-proportion="-18.911764">
+          <caret line="70" column="65" selection-start-line="70" selection-start-column="65" selection-end-line="70" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/CartProductVoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartDeleteProductAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelectAllAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartSelecttAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUpdateAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelecttAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartUNSelectAllAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartCountAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7903225">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="22.0">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mmall/dao/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5555556">
+          <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartAddAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1413044">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.2777778">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4422222">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060096152">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <marker date="1511938880895" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
+            <marker date="1511938880895" expanded="true" signature="1523:1589" placeholder="select count... mmall_user" />
+            <marker date="1511938880895" expanded="true" signature="1674:1772" placeholder="select from mmall_user" />
+            <marker date="1511938880895" expanded="true" signature="1674:1799" placeholder="select from mmall_user" />
+            <marker date="1511938880895" expanded="true" signature="1887:1947" placeholder="delete from " />
+            <marker date="1511938880895" expanded="true" signature="2024:2479" placeholder="insert into mmall_user... " />
+            <marker date="1511938880895" expanded="true" signature="4294:5226" placeholder="update mmall... " />
+            <marker date="1511938880895" expanded="true" signature="5315:5784" placeholder="update mmall... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.852942">
+        <state vertical-scroll-proportion="0.060096152">
           <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
           <folding>
-            <marker date="1511859089705" expanded="true" signature="2249:2302" placeholder="select user_... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2249:2306" placeholder="select user_... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2249:2307" placeholder="select id fr... mmall_user" />
-            <marker date="1511859089705" expanded="true" signature="2440:2702" placeholder="select from id" />
-            <marker date="1511859089705" expanded="true" signature="2499:2571" placeholder="select id,na... mmall_product" />
-            <marker date="1511859089705" expanded="true" signature="2791:2911" placeholder="select from mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3025:3146" placeholder="select from mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3247:3322" placeholder="delete from " />
-            <marker date="1511859089705" expanded="true" signature="3447:3490" placeholder="select sum(q... mmall_cart" />
-            <marker date="1511859089705" expanded="true" signature="3579:3867" placeholder="insert into mmall_cart... " />
-            <marker date="1511859089705" expanded="true" signature="5224:5884" placeholder="update mmall... " />
-            <marker date="1511859089705" expanded="true" signature="5971:6309" placeholder="update mmall... " />
+            <marker date="1511918552978" expanded="true" signature="2253:2306" placeholder="select user_... mmall_user" />
+            <marker date="1511918552978" expanded="true" signature="2253:2310" placeholder="select user_... mmall_user" />
+            <marker date="1511918552978" expanded="true" signature="2253:2311" placeholder="select id fr... mmall_user" />
+            <marker date="1511918552978" expanded="true" signature="2448:2710" placeholder="select from id" />
+            <marker date="1511918552978" expanded="true" signature="2507:2579" placeholder="select id,na... mmall_product" />
+            <marker date="1511918552978" expanded="true" signature="2799:2919" placeholder="select from mmall_cart" />
+            <marker date="1511918552978" expanded="true" signature="3033:3154" placeholder="select from mmall_cart" />
+            <marker date="1511918552978" expanded="true" signature="3255:3330" placeholder="delete from " />
+            <marker date="1511918552978" expanded="true" signature="3455:3498" placeholder="select sum(q... mmall_cart" />
+            <marker date="1511918552978" expanded="true" signature="3587:3875" placeholder="insert into mmall_cart... " />
+            <marker date="1511918552978" expanded="true" signature="5232:5892" placeholder="update mmall... " />
+            <marker date="1511918552978" expanded="true" signature="5979:6317" placeholder="update mmall... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-          <folding>
-            <marker date="1511875011889" expanded="true" signature="1608:1669" placeholder="select from mmall_shipping" />
-            <marker date="1511875011889" expanded="true" signature="1774:1867" placeholder="select * fro... mmall_shipping" />
-            <marker date="1511875011889" expanded="true" signature="1982:2087" placeholder="select from mmall_shipping" />
-            <marker date="1511875011889" expanded="true" signature="2174:2238" placeholder="delete from " />
-            <marker date="1511875011889" expanded="true" signature="2319:2991" placeholder="insert into mmall_shipping... " />
-            <marker date="1511875011889" expanded="true" signature="5351:6655" placeholder="update mmall... " />
-            <marker date="1511875011889" expanded="true" signature="6748:7434" placeholder="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/ShippingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/UserLoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1435#1436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingDeleteAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3755656">
+          <caret line="167" column="37" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+          <folding>
+            <marker date="1511944113200" expanded="true" signature="1608:1669" placeholder="select from mmall_shipping" />
+            <marker date="1511944113200" expanded="true" signature="1774:1867" placeholder="select * fro... mmall_shipping" />
+            <marker date="1511944113200" expanded="true" signature="1982:2087" placeholder="select from mmall_shipping" />
+            <marker date="1511944113200" expanded="true" signature="2174:2238" placeholder="delete from " />
+            <marker date="1511944113200" expanded="true" signature="2319:2991" placeholder="insert into mmall_shipping... " />
+            <marker date="1511944113200" expanded="true" signature="5351:6655" placeholder="update mmall... " />
+            <marker date="1511944113200" expanded="true" signature="6748:7434" placeholder="update mmall... " />
           </folding>
         </state>
       </provider>
@@ -2000,28 +2023,127 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mmall/dao/ShippingMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="37" selection-start-line="34" selection-start-column="8" selection-end-line="46" selection-end-column="37" />
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingSelectAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartAddAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/ShippingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/CartListAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#757#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ShippingCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mmall/service/impl/ShippingServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingUpdateAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3060796">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingListAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="e#786#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ShippingAddAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27843803">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

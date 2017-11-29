@@ -1,7 +1,7 @@
-package com.mmall.vo;
+package com.mmall.common;
 
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.mmall.pojo.Cart;
+import com.mmall.common.CartProductVoList;
+import com.mmall.pojo.Shipping;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -12,6 +12,7 @@ import java.util.List;
  */
 public class Data implements Serializable{
     private List<CartProductVoList> cartProductVoList;
+    private List<Shipping> shippings;
     private boolean allChecked;
     private BigDecimal cartTotalPrice;
 
@@ -22,6 +23,21 @@ public class Data implements Serializable{
         this.cartProductVoList = cartProductVoList;
         this.allChecked = allChecked;
         this.cartTotalPrice = cartTotalPrice;
+    }
+
+    public Data(List<CartProductVoList> cartProductVoList, List<Shipping> shippings, boolean allChecked, BigDecimal cartTotalPrice) {
+        this.cartProductVoList = cartProductVoList;
+        this.shippings = shippings;
+        this.allChecked = allChecked;
+        this.cartTotalPrice = cartTotalPrice;
+    }
+
+    public List<Shipping> getShippings() {
+        return shippings;
+    }
+
+    public void setShippings(List<Shipping> shippings) {
+        this.shippings = shippings;
     }
 
     public List<CartProductVoList> getCartProductVoList() {
@@ -51,7 +67,8 @@ public class Data implements Serializable{
     @Override
     public String toString() {
         return "Data{" +
-                "cartProductVoList=" + cartProductVoList.size() +
+                "cartProductVoList=" + cartProductVoList +
+                ", shippings=" + shippings +
                 ", allChecked=" + allChecked +
                 ", cartTotalPrice=" + cartTotalPrice +
                 '}';

@@ -2,8 +2,8 @@ package com.mmall.controller;
 
 import com.mmall.pojo.Cart;
 import com.mmall.service.CartService;
-import com.mmall.vo.Data;
-import com.mmall.vo.Message;
+import com.mmall.common.Data;
+import com.mmall.common.ServerResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,11 +19,11 @@ public class CartUpdateAction {
 
     @Autowired
     private CartService service;
-    Message message = new Message();
+    ServerResponse serverResponse = new ServerResponse();
     Data data = new Data();
 
     //更新购物车某个产品数量
-    @RequestMapping(value = "update.do", method = RequestMethod.GET)
+    @RequestMapping(value = "update.do", method = RequestMethod.POST)
     public String updateToCart(@RequestParam int productId, @RequestParam int count){
         Cart cart = service.findIfRepeat(productId);
         //说明已有该购物项,增加quantity+1即可--也不用额外判断是否重复

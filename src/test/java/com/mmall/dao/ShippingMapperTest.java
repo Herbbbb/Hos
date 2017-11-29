@@ -62,7 +62,7 @@ public class ShippingMapperTest {
     @Test
     public void testUpdateByPrimaryKeySelective() throws Exception {
         Shipping shipping = new Shipping();
-        shipping.setId(7);
+        shipping.setId(35);
         shipping.setReceiverName("Herb");
         mapper.updateByPrimaryKeySelective(shipping);
         System.out.println(shipping);

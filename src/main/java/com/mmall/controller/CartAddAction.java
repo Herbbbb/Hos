@@ -1,9 +1,9 @@
 package com.mmall.controller;
 
+import com.mmall.common.ServerResponse;
 import com.mmall.pojo.Cart;
 import com.mmall.service.CartService;
-import com.mmall.vo.Data;
-import com.mmall.vo.Message;
+import com.mmall.common.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,11 +21,11 @@ public class CartAddAction {
 
     @Autowired
     private CartService service;
-    Message message = new Message();
+    ServerResponse serverResponse = new ServerResponse();
     Data data = new Data();
 
     //购物车List列表
-    @RequestMapping(value = "add.do", method = RequestMethod.GET)
+    @RequestMapping(value = "add.do", method = RequestMethod.POST)
     public String addToCart(@RequestParam int productId, @RequestParam int count) {
         Cart cart = service.findIfRepeat(productId);
         //模拟session获取登陆信息
@@ -48,6 +48,7 @@ public class CartAddAction {
             service.insertSelective(cart2);
             return "redirect:/cart/list.do";
         }
+        //return ServerResponse.createErrorResponse("用户未登录，请登录");
         return "";
     }
 }

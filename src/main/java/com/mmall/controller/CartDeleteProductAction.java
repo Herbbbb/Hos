@@ -1,9 +1,6 @@
 package com.mmall.controller;
 
-import com.mmall.pojo.Cart;
 import com.mmall.service.CartService;
-import com.mmall.vo.Data;
-import com.mmall.vo.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,7 +18,7 @@ public class CartDeleteProductAction {
     private CartService service;
 
     //购物车List列表
-    @RequestMapping(value = "delete_product.do", method = RequestMethod.GET)
+    @RequestMapping(value = "delete_product.do", method = RequestMethod.POST)
     public  String addToCart(@RequestParam int productId){
         //单个删除
         service.deleteByPrimaryKey(productId);

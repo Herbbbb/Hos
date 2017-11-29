@@ -17,13 +17,26 @@
       <arg column="update_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
     </constructor>
   </resultMap>
-  <sql id="Base_Column_List" >
-    id, user_id, receiver_name, receiver_phone, receiver_mobile, receiver_province, receiver_city, 
+
+  <sql id="Column_List" >
+    id, user_id, receiver_name, receiver_phone, receiver_mobile, receiver_province, receiver_city,
     receiver_district, receiver_address, receiver_zip, create_time, update_time
   </sql>
+
+  <!--查看所有地址-->
+  <select id="findAll" resultMap="BaseResultMap">
+    select <include refid="Column_List"/>
+    from mmall_shipping
+  </select>
+
+  <select id="findDetail" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+    select <include refid="Column_List"/>
+    from mmall_shipping where id=#{id,jdbcType=INTEGER};
+  </select>
+
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
-    <include refid="Base_Column_List" />
+    <include refid="Column_List" />
     from mmall_shipping
     where id = #{id,jdbcType=INTEGER}
   </select>

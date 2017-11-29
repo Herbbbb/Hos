@@ -1,9 +1,9 @@
 package com.mmall.controller;
 
 import com.mmall.service.CartService;
-import com.mmall.vo.CartProductVoList;
-import com.mmall.vo.Data;
-import com.mmall.vo.Message;
+import com.mmall.common.CartProductVoList;
+import com.mmall.common.Data;
+import com.mmall.common.ServerResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,11 +21,11 @@ public class CartUNSelectAllAction {
 
     @Autowired
     private CartService service;
-    Message message = new Message();
+    ServerResponse serverResponse = new ServerResponse();
     Data data = new Data();
 
     //购物车选中某个商品
-    @RequestMapping(value = "un_select_all.do", method = RequestMethod.GET)
+    @RequestMapping(value = "un_select_all.do", method = RequestMethod.POST)
     public String UNSelectAllToCart(){
         String username = " ";
         if(username != null && username != " ") {
@@ -37,9 +37,9 @@ public class CartUNSelectAllAction {
             }
             return "redirect:/cart/list.do";
         }else{
-            message.setStatus(10);
-            message.setMsg("用户未登录,请登录");
-            return message.toString();
+            serverResponse.setStatus(10);
+            serverResponse.setMsg("用户未登录,请登录");
+            return serverResponse.toString();
         }
     }
 }

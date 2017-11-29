@@ -1,4 +1,4 @@
-package com.mmall.vo;
+package com.mmall.common;
 
 import org.codehaus.jackson.map.annotate.JsonSerialize;
 import java.io.Serializable;

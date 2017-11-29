@@ -1,7 +1,7 @@
 package com.mmall.service;
 
 import com.mmall.pojo.Cart;
-import com.mmall.vo.CartProductVoList;
+import com.mmall.common.CartProductVoList;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

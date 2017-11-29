@@ -3,7 +3,7 @@ package com.mmall.service.impl;
 import com.mmall.dao.CartMapper;
 import com.mmall.pojo.Cart;
 import com.mmall.service.CartService;
-import com.mmall.vo.CartProductVoList;
+import com.mmall.common.CartProductVoList;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

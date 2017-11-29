@@ -11,6 +11,7 @@ public interface ShippingMapper {
     //功能一：添加地址--
     int insert(Shipping record);
     //功能一：添加地址--SQL拼接
+    //考虑到一个用户有多个收货地址，我们就不在判断这里是否重复
     int insertSelective(Shipping record);
 
     //功能二：删除地址--根据ID

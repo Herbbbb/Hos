@@ -1,9 +1,9 @@
 package com.mmall.controller;
 
+import com.mmall.common.ServerResponse;
 import com.mmall.pojo.Cart;
 import com.mmall.service.CartService;
-import com.mmall.vo.Data;
-import com.mmall.vo.Message;
+import com.mmall.common.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,11 +19,11 @@ public class CartUNSelecttAction {
 
     @Autowired
     private CartService service;
-    Message message = new Message();
+    ServerResponse serverResponse = new ServerResponse();
     Data data = new Data();
 
     //购物车选中某个商品
-    @RequestMapping(value = "un_select.do", method = RequestMethod.GET)
+    @RequestMapping(value = "un_select.do", method = RequestMethod.POST)
     public  String addToCart(@RequestParam int productId){
         //选中为1
         Cart cart = service.selectByPrimaryKey(productId);

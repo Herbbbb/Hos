@@ -1,4 +1,4 @@
-package com.mmall.vo;
+package com.mmall.common;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import java.io.Serializable;

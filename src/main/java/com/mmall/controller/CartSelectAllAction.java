@@ -1,15 +1,13 @@
 package com.mmall.controller;
 
-import com.mmall.pojo.Cart;
 import com.mmall.service.CartService;
-import com.mmall.vo.CartProductVoList;
-import com.mmall.vo.Data;
-import com.mmall.vo.Message;
+import com.mmall.common.CartProductVoList;
+import com.mmall.common.Data;
+import com.mmall.common.ServerResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -23,11 +21,11 @@ public class CartSelectAllAction {
 
     @Autowired
     private CartService service;
-    Message message = new Message();
+    ServerResponse serverResponse = new ServerResponse();
     Data data = new Data();
 
     //购物车选中某个商品
-    @RequestMapping(value = "select_all.do", method = RequestMethod.GET)
+    @RequestMapping(value = "select_all.do", method = RequestMethod.POST)
     public  String addToCart(){
         //模拟Session中获取的userID
         List<CartProductVoList> lists = service.findAll(21);

@@ -1,7 +1,7 @@
 package com.mmall.dao;
 
 import com.mmall.pojo.Cart;
-import com.mmall.vo.CartProductVoList;
+import com.mmall.common.CartProductVoList;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,8 +10,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Date;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Herb on 2017/11/27.
